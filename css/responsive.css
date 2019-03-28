@@ -1,0 +1,117 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main_menu ul li {
+        margin-left: 35px;
+    }
+    .feature-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-inner h2 {
+        font-size: 44px;
+
+    }
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_area {
+        padding: 17px 37.5px;
+    }
+    .feature-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-inner h2 {
+        font-size: 41px;
+    }
+    .slider-inner p {
+        margin-bottom: 18px;
+    }
+    .slider-icon {
+        margin-bottom: 18px;
+    }
+    .singel-feature {
+        border-bottom: 1px solid #dddddd;
+    }
+    .theme-bg .col-xl-4:last-child .singel-feature{
+        border-bottom:0;
+    }
+    .picture-area img {
+        margin-top: 30px;
+    }
+    .artical-area .btn {
+        display: inherit;
+    }
+    .subscribe-form input {
+        width: 23%;
+    }
+    .singel-slider {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header_area {
+        padding: 17px 37.5px;
+    }
+    .feature-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-inner p {
+        margin-bottom: 18px;
+    }
+    .slider-icon {
+        margin-bottom: 18px;
+    }
+    .singel-feature {
+        border-bottom: 1px solid #dddddd;
+    }
+    .theme-bg .col-xl-4:last-child .singel-feature{
+        border-bottom:0;
+    }
+    .picture-area img {
+        margin-top: 30px;
+    }
+    .slider-inner h2 {
+        font-size: 28px;
+    }
+    .subscribe-form input {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .pricing-item {
+        width: 100%;
+    }
+    .testmonial-area {
+        padding: 54px;
+    }
+    .testmonial-item {
+        padding: 30px 29px;
+
+    }
+    .copyright-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+
+}
